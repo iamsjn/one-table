@@ -19,16 +19,19 @@ If you search over the internet for table plugin/library for your angular applic
 
 Add a reference of one-table.js in your application:
 
+```
 <script type="text/javascript" src="one-table.js"></script>
-
+```
 and then inject the dependency in your application module:
 
+```
 var myApp = angular.module('myApp', ['oneTableApp']);
-
+```
 now you're almost ready to use one-table in your application. In your view use one-table directive like below:
 
+```
 <one-table one-table-properties="{ name: 'empTable', headerSource: empheaderSource, dataSource: empDataSource, cssClass: 'table table-bordered' }"></one-table>
-
+```
 ### Prerequisites
 
 one-table requires angularjs v-1.3.17 or later and jQuery v-3.1.0 or later.
