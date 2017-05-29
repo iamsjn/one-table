@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.17/angular.min.js"></script>
+  <script type="text/javascript" src="../one-table.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body ng-app="clientApp">
+  <div class="col-md-12" ng-controller="userCtrl as user">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="page-header">
+          <b>One table in action!</b>
+        </div>
+        <div class="table-responsive">
+          <one-table one-table-properties="{ name: 'salesTable', headerSource: salesheaderSource, dataSource: salesDataSource, cssClass: 'table table-bordered table-striped', exportToExcel: true, commaSeparated: true, grandTotal: true}"></one-table>
+          <div class="page-header">
+            <b>Another One table!</b>
+          </div>
+          <one-table one-table-properties="{ name: 'empTable', headerSource: empheaderSource, dataSource: empDataSource, cssClass: 'table table-bordered' }"></one-table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
