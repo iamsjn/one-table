@@ -1,0 +1,20 @@
+{
+  "name": "one-table",
+  "main": "one-table.js",
+  "homepage": "https://iamsjn.github.io/one-table/",
+  "description": "A full featured table plugin for angular application.",
+  "keywords": [
+    "one-table"
+  ],
+  "authors": [
+    "Khairul Islam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
