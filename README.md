@@ -38,21 +38,11 @@ one-table requires angularjs v-1.3.17 or later and jQuery v-3.1.0 or later.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+You can install it with bower:
 
 ```
-Give the example
+bower install one-table
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Built With
 
